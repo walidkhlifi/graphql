@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./static/profile.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1 id='profile'></h1>
+        <div class="photo">
+            <img id="imgProfile">
+        </div>
+
+        <div class="card">
+            <h2>information user</h2>
+            <p id="userLogin"></p>
+            <p id="city"></p>
+            <p id="phone"></p>
+            <p id="ratio"></p>
+        </div>
+
+        <div class="card">
+            <h2>Total XP</h2>
+            <p id="totalXP"></p>
+        </div>
+        <div class="card">
+            <h2>Level</h2>
+            <p id="Level"></p>
+        </div>
+
+        <div class="card">
+            <h2>XP Graph</h2>
+            <svg id="xpGraph" width="750" height="550"></svg>
+            <div id="projects"></div>
+        </div>
+
+        <div class="card">
+            <h2>Skills %</h2>
+            <svg id="Skills" width="750" height="250"></svg>
+        </div>
+
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+<script type="module" src="js/profile.js"></script>
+</body>
+</html>
